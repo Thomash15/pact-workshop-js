@@ -9,5 +9,8 @@
   },
   "dependencies": {
     "concurrently": "9.0.1"
-  }
+  },
+  "scripts":{
+    "test:pact": "jest --testTimeout=30000 --testMatch \"**/*.pact.test.js\""
+  },
 }
