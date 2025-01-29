@@ -28,7 +28,8 @@
     "eject": "react-scripts eject",
     "pretest:pact": "rimraf pacts/*.json",
     "test:pact": "cross-env CI=true react-scripts test --testTimeout=30000 pact.spec.js",
-    "test:unit": "cross-env CI=true react-scripts test api.spec.js"
+    "test:unit": "cross-env CI=true react-scripts test api.spec.js",
+    "test:pact": "cross-env CI=true react-scripts test --testTimeout 30000 pact.spec.js"
   },
   "eslintConfig": {
     "extends": [
